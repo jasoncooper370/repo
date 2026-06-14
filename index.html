@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Social Media Login</title>
+    <!-- Link your CSS file -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Load Fengari so Lua runs in the browser -->
+    <script src="https://github.com/fengari-lua/fengari-web/releases/download/v0.1.4/fengari-web.js"></script>
+</head>
+<body>
+
+    <!-- This is your local textFieldFrame container -->
+    <div id="loginFormFrame">
+        <h2>Sign In</h2>
+        <input type="text" id="usernameInput" placeholder="Username">
+        <input type="password" id="passwordInput" placeholder="Password">
+        <button id="loginButton">Log In</button>
+    </div>
+
+    <!-- Load your Lua file -->
+    <script type="application/lua" src="app.lua"></script>
+
+</body>
+</html>
